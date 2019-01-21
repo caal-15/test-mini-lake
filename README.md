@@ -1,3 +1,7 @@
+# Purpose
+
+This app was just created to test [mini-lake](https://github.com/caal-15/mini-lake), it's just a counter. :)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
