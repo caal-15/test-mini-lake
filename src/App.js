@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import { Provider } from 'mini-lake'
 import logo from './logo.svg';
 import './App.css';
+
+import { initialState, actions } from './store'
+import Counter from './Counter'
 
 class App extends Component {
   render() {
@@ -19,6 +23,9 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Provider initialState={initialState} actions={actions}>
+            <Counter />
+          </Provider>
         </header>
       </div>
     );
